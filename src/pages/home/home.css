@@ -1,0 +1,33 @@
+/* home.css */
+.homeMain {
+  /* Your existing styles for homeMain */
+}
+
+.meucategory {
+  overflow-x: auto; /* Enable horizontal scrolling */
+  white-space: nowrap; /* Prevent line breaks for menu items */
+}
+
+.menuElements {
+  display: flex;
+  gap: 40px;
+
+  border-bottom: 1px solid rgba(210, 208, 208, 0.8);
+}
+
+.categoryitem {
+  margin-right: 10px;
+  font-size: 18px;
+  padding: 20px;
+  cursor: pointer;
+  /* font-weight: bold; */
+}
+.categoryitemActive {
+  color: red;
+  border-bottom: 2px solid red;
+}
+@media only screen and (min-width: 1024px) {
+  .menuElements {
+    padding-left: 50px;
+  }
+}
